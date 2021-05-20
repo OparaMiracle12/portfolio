@@ -1,23 +1,27 @@
 {
-  "name": "portfolio",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "dev": "parcel ./src/index.html",
-    "build": "parcel build index.html",
-    "serve": "server -s dist/index.html"
-  },
-  "keywords": [],
-  "author": "Opara Miracle",
-  "license": "ISC",
-  "devDependencies": {
-    "parcel-bundler": "^1.12.5",
-    "sass": "^1.32.8",
-    "serve": "^11.3.2"
-  },
-  "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.3",
-    "bootstrap": "^5.0.0-beta3"
-  }
+    "name": "portfolio",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts":
+    {
+        "dev": "parcel ./src/index.html",
+        "build": "parcel build dist/index.html",
+        "serve": "server -s dist/index.html"
+    },
+    "keywords": [],
+    "author": "Opara Miracle",
+    "license": "ISC",
+    "devDependencies":
+    {
+        "@fortawesome/fontawesome-free": "^5.15.3",
+        "parcel-bundler": "^1.12.5",
+        "sass": "^1.32.8",
+        "serve": "^11.3.2"
+    },
+    "dependencies":
+    {
+        "@popperjs/core": "^2.9.2",
+        "bootstrap": "^5.0.0-beta3"
+    }
 }
