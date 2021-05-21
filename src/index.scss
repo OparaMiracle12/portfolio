@@ -6,3 +6,8 @@ body {
     flex-direction: column;
     overflow-y: scroll;
 }
+
+textarea {
+    height: 20vh;
+    resize: none;
+}

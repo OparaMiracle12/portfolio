@@ -11,7 +11,7 @@
 
 <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" tabindex="0" id="home">
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="navbar">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" id="navbar">
         <div class="container">
             <a class="navbar-brand" href="#">My Portfolio</a>
 
@@ -20,9 +20,9 @@
                 </button>
 
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <nav class="nav ms-auto">
-                    <div class="navbar-nav">
-                        <a class="nav-link" aria-current="page" href="#home">Home</a>
+                <nav class="nav ms-auto justify-content-center">
+                    <div class="navbar-nav text-center">
+                        <a class="nav-link" href="#home">Home</a>
                         <a class="nav-link" href="#about">About</a>
                         <a class="nav-link" href="#works">Works</a>
                         <a class="nav-link" href="#contact">Contact</a>
@@ -35,10 +35,10 @@
     <!-- Banner -->
     <div class="banner py-5 mt-5">
         <div class="container">
-            <div class="row">
+            <div class="row justify-content-md-center">
                 <div class="col-md-10">
-                    <div class="banner__body py-md-3 py-lg-5">
-                        <h1 class="banner__title display-4">Hello, Opara Miracle here</h1>
+                    <div class="banner__body py-md-3 py-lg-5 text-md-center">
+                        <h1 class="banner__title display-2">Hello, Opara Miracle here</h1>
                         <p class="lead banner__subtitle">I'm a Web developer with 6 months of experience</p>
                         <a href="" class="btn btn-secondary">Contact Me</a>
                     </div>
@@ -70,7 +70,7 @@
 
                         <div class="col-md-12 col-lg-5">
                             <div class="card">
-                                <svg class="bd-placeholder-img card-img" width="100%" height="260" xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Card image" preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+                                <svg class="card-img" width="100%" height="260" xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Card image" preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
                                         <title>Placeholder</title>
                                         <rect width="100%" height="100%" fill="#868e96" />
                                         <text x="50%" y="50%" fill="#dee2e6" dy=".3em"></text>
@@ -91,7 +91,7 @@
                     <div class="row g-4">
                         <div class="col-md-6">
                             <div class="card border border-white shadow rounded">
-                                <svg class="bd-placeholder-img img-fluid" xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+                                <svg class="img-fluid" xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
                                         <title>Placeholder</title>
                                         <rect width="100%" height="100%" fill="#55595c" />
                                     </svg>
@@ -108,7 +108,7 @@
 
                         <div class="col-md-6">
                             <div class="card border border-white shadow rounded">
-                                <svg class="bd-placeholder-img img-fluid" xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+                                <svg class="img-fluid" xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
                                         <title>Placeholder</title>
                                         <rect width="100%" height="100%" fill="#55595c" />
                                     </svg>
@@ -125,7 +125,7 @@
 
                         <div class="col-md-6">
                             <div class="card border border-white shadow rounded">
-                                <svg class="bd-placeholder-img img-fluid" xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+                                <svg class="img-fluid" xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
                                         <title>Placeholder</title>
                                         <rect width="100%" height="100%" fill="#55595c" />
                                     </svg>
@@ -142,7 +142,7 @@
 
                         <div class="col-md-6">
                             <div class="card border border-white shadow rounded">
-                                <svg class="bd-placeholder-img img-fluid" xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+                                <svg class="img-fluid" xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
                                         <title>Placeholder</title>
                                         <rect width="100%" height="100%" fill="#55595c" />
                                     </svg>
@@ -154,6 +154,41 @@
                                     </p>
                                     <a href="#" class="btn btn-outline-secondary">view</a>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="contact py-3" id="contact">
+            <div class="container">
+                <h2 class="title h1 text-center">Contact Me</h2>
+
+                <div class="content py-4 py-lg-5">
+                    <div class="row justify-content-center">
+                        <div class="col-md-10 col-lg-8">
+                            <div class="card p-4 shadow">
+                                <form action="">
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control" name="name" placeholder="Enter Your Name" />
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <input type="email" class="form-control" name="email" placeholder="Enter Your Email" />
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control" name="subject" placeholder="Enter a Subject" />
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <textarea class="form-control" name="message" rows="3"></textarea>
+                                    </div>
+
+                                    <button type="submit" class="btn btn-outline-secondary">Send</button>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -181,7 +216,8 @@
                             <a href=""><span class="fab fa-instagram text-danger fa-2x"></span></a>
                         </li>
                         <li class="Github-link">
-                            <a href=""><span class="fab fa-github text-dark fa-2x"></span></a>
+                            <a href="https://github.com/OparaMiracle12/portfolio"><span class="fab fa-github text-dark fa-2x"></span
+                                ></a>
                         </li>
                     </ul>
                 </div>

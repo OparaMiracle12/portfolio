@@ -6,7 +6,7 @@
     "scripts":
     {
         "dev": "parcel ./src/index.html",
-        "build": "parcel build dist/index.html",
+        "build": "parcel build ./src/index.html",
         "serve": "server -s dist/index.html"
     },
     "keywords": [],
