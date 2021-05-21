@@ -1,4 +1,5 @@
 @import "~bootstrap/scss/bootstrap";
+// Resets
 body {
     position: relative;
     height: 100vh;
@@ -10,4 +11,30 @@ body {
 textarea {
     height: 20vh;
     resize: none;
+}
+
+.title {
+    color: rgb(15, 15, 148);
+}
+
+// Navbar
+.navbar {
+    background-color: rgb(97, 7, 7);
+}
+
+// Banner
+.banner {
+    background-image: linear-gradient(to bottom, rgb(228, 228, 10) 0%, rgb(124, 20, 20) 40%);
+    // background-color: rgb(124, 20, 20);
+}
+
+// Footer
+footer {
+    background-color: rgb(51, 16, 16);
+    .link {
+        background-color: rgb(143, 16, 16);
+        padding: .2rem;
+        border-radius: 8px;
+        box-shadow: 0 0 2px 2px rgb(180, 23, 23);
+    }
 }
