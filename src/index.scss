@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Padauk:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro:wght@900&display=swap');
 @import "~bootstrap/scss/bootstrap";
 // Resets
 body {
@@ -6,6 +9,21 @@ body {
     display: flex;
     flex-direction: column;
     overflow-y: scroll;
+}
+
+p,
+span,
+a {
+    font-family: 'KoHo', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
 }
 
 textarea {
@@ -20,11 +38,17 @@ textarea {
 // Navbar
 .navbar {
     background-color: rgb(97, 7, 7);
+    .navbar-brand {
+        font-family: 'Padauk', sans-serif;
+    }
 }
 
 // Banner
 .banner {
     background-image: linear-gradient(to bottom, rgb(228, 228, 10) 0%, rgb(124, 20, 20) 40%);
+    .banner__title {
+        font-family: 'Roboto', sans-serif;
+    }
     // background-color: rgb(124, 20, 20);
 }
 
